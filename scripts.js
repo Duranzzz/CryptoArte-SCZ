@@ -72,8 +72,10 @@ function toggleCandidate() {
             nftImage.src = currentCandidate.nftUrl;
             nftImage.style.display = 'block';
             candidateImage.style.background = 'none';
+            candidateImage.textContent = ''; // Clear emoji when image is present
         } else {
             nftImage.style.display = 'none';
+            nftImage.src = ''; // Clear image source when no image is present
             candidateImage.style.background = currentCandidate.gradient;
             candidateImage.textContent = currentCandidate.emoji;
         }
@@ -168,3 +170,16 @@ function initializeChart() {
         }
     });
 }
+
+// Función para mostrar información de la herramienta
+function showTool(toolType) {
+    const messages = {
+        'risk': 'Análisis de Riesgo: Evaluando factores de incertidumbre electoral... (Funcionalidad en desarrollo)',
+        'ai': 'Insights de IA: Analizando patrones en datos históricos... (Funcionalidad en desarrollo)',
+        'optimization': 'Optimización: Calibrando modelos predictivos... (Funcionalidad en desarrollo)',
+        'social': 'Análisis Social: Monitoreando tendencias en redes sociales... (Funcionalidad en desarrollo)'
+    };
+    alert(messages[toolType] || 'Herramienta en desarrollo. ¡Pronto más funcionalidades!');
+}
+
+
