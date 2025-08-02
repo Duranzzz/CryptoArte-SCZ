@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PredictaCore - Elecciones Bolivia 2025</title>
+    <link rel="stylesheet" href="C:\Users\Renzo\Desktop\__\styles.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">🔮 PredictaCore</div>
+            <ul class="nav-links">
+                <li><a href="#data">Datos</a></li>
+                <li><a href="#candi">Candidometro</a></li>
+                <li><a href="#tools">Herramientas</a></li>
+                <li><a href="#trends">Tendencias</a></li>
+            </ul>
+            <div class="status-indicator">
+                <span>🟢</span>
+                <span>Sistema Activo</span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Elecciones Bolivia 2025</h1>
+                <p>Plataforma de Predicción Inteligente con Análisis en Tiempo Real</p>
+            </div>
+        </section>
+
+        <section id="data" class="container">
+            <div class="data-grid">
+                <div class="card fade-in">
+                    <h2>📊 Datos de Polymarket</h2>
+                    <div id="polymarket-data">
+                        <div class="data-item">
+                            <strong>Samuel Doria Medina:</strong> 51% probabilidad de victoria
+                        </div>
+                        <div class="data-item">
+                            <strong>Jorge Quiroga:</strong> 33% probabilidad de victoria
+                        </div>
+                        <div class="data-item">
+                            <strong>Andrónico Rodríguez:</strong> 16% probabilidad de victoria
+                        </div>
+                        <div class="data-item">
+                            <strong>Manfred Reyes Villa:</strong> 1.3% probabilidad de victoria
+                        </div>
+                        <p style="margin-top: 1rem; opacity: 0.8; font-style: italic;">
+                            Fuente: Estimaciones basadas en tendencias de mercado
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card fade-in">
+                    <h2>📰 Análisis de Medios</h2>
+                    <div id="news-data">
+                        <div class="data-item">
+                            <strong>Samuel Doria Medina:</strong> 24.5% intención de voto
+                        </div>
+                        <div class="data-item">
+                            <strong>Jorge Quiroga:</strong> 22.9% intención de voto
+                        </div>
+                        <div class="data-item">
+                            <strong>Rodrigo Paz:</strong> 7.6% intención de voto
+                        </div>
+                        <div class="data-item">
+                            <strong>Andrónico Rodríguez:</strong> 7.4% intención de voto
+                        </div>
+                        <div class="data-item">
+                            <strong>Voto Nulo/Blanco/Indeciso:</strong> 25%
+                        </div>
+                        <p style="margin-top: 1rem; opacity: 0.8; font-style: italic;">
+                            Fuente: Encuesta UNITEL, publicada el 2 de junio de 2025
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="candi" class="candidate-section container">
+            <h2 style="font-size: 2.5rem; margin-bottom: 2rem;">CANDIDOMETRO</h2>
+            <div class="candidate-container">
+                <div class="candidate-image" id="candidate-image">
+                    <img id="nft-image" src="" alt="NFT del candidato">
+                </div>
+                <h3 id="candidate-name" style="font-size: 1.5rem; margin-bottom: 1rem;">
+                    Samuel Doria Medina (Líder Actual)
+                </h3>
+                <button id="toggle-candidate" class="btn btn-primary">
+                    Ver Segundo Lugar
+                </button>
+            </div>
+        </section>
+
+        <section id="trends" class="container">
+            <div class="card">
+                <h2>📈 Tendencias Electorales</h2>
+                <div class="chart-container">
+                    <canvas id="trends-chart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section id="tools" class="container">
+            <div class="controls">
+                <h2>🔧 Herramientas de Análisis</h2>
+                <div class="tools-grid">
+                    <div class="tool-card" onclick="showTool('risk')">
+                        <div class="icon">📉</div>
+                        <h3>Análisis de Riesgo</h3>
+                        <p>Evaluar riesgos electorales</p>
+                    </div>
+                    <div class="tool-card" onclick="showTool('ai')">
+                        <div class="icon">🤖</div>
+                        <h3>Insights de IA</h3>
+                        <p>Recomendaciones basadas en datos</p>
+                    </div>
+                    <div class="tool-card" onclick="showTool('optimization')">
+                        <div class="icon">⚙️</div>
+                        <h3>Optimización</h3>
+                        <p>Mejorar precisión de análisis</p>
+                    </div>
+                    <div class="tool-card" onclick="showTool('social')">
+                        <div class="icon">💬</div>
+                        <h3>Análisis Social</h3>
+                        <p>Monitoreo de redes sociales</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 PredictaCore. Plataforma de análisis electoral avanzado para Bolivia.</p>
+        </div>
+    </footer>
+
+    <div id="status-container"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="C:\Users\Renzo\Desktop\__\scripts.js"></script>
+</body>
+</html>
