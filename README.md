@@ -36,7 +36,7 @@
 ## 🛠️ Tecnologías Utilizadas
 
 <p align="center">
-  <img src="https://i.ibb.co/svQVpT6k/image-1.png" alt="HTML" width="350" style="margin: 10px;">
+  <img src="https://i.postimg.cc/pTmckRDX/image-1.png" alt="HTML" width="350" style="margin: 10px;">
 </p>
 
 ## 👥 Equipo Buildathon
