@@ -8,7 +8,7 @@
 ---
 
 ## 🌐 Demo Funcionando
-[![Ver Demo](https://img.shields.io/badge/VER_DEMO_EN_VIVO-AQUÍ-00C4CC?style=for-the-badge&logo=vercel)](https://predictacore-bolivia2025.vercel.app)
+[![Ver Demo](https://img.shields.io/badge/VER_DEMO_EN_VIVO-AQUÍ-00C4CC?style=for-the-badge&logo=vercel)](https://Duranzzz.github.io/PredictaCore/)
 
 ---
 
