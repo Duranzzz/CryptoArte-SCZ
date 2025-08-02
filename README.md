@@ -36,7 +36,7 @@
 ## 🛠️ Tecnologías Utilizadas
 
 <p align="center">
-  <img src="https://geoinnova.org/wp-content/uploads/2021/08/logos.png" alt="HTML" width="350" style="margin: 10px;">
+  <img src="https://i.ibb.co/svQVpT6k/image-1.png" alt="HTML" width="350" style="margin: 10px;">
 </p>
 
 ## 👥 Equipo Buildathon
