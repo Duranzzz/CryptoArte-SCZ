@@ -43,4 +43,4 @@
 - Leonardo Duran Cueca
 - Renzo Pablo Torrico Moreno
 - Jesus Andrés Flores Paz
-- Raul Leandro Masay
+- Raul Leandro Masay Pedraza
